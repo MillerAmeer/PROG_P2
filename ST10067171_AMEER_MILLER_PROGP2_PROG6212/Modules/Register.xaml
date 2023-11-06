@@ -1,0 +1,28 @@
+﻿<Window x:Class="Modules.Register"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Modules"
+        mc:Ignorable="d"
+        Title="Register" Height="450" Width="400">
+    <Grid>
+        <Grid Margin="0,0,0,0">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF585858" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Label x:Name="label3" Content="WELCOME TO THE STUDENT FORM" HorizontalAlignment="Left" Margin="43,27,0,0" VerticalAlignment="Top" Foreground="White"/>
+            <Label x:Name="label4" Content="Please enter your student login details:" HorizontalAlignment="Left" Margin="47,74,0,0" VerticalAlignment="Top" Foreground="White"/>
+            <TextBox x:Name="UserName" HorizontalAlignment="Left" Height="24" Margin="48,144,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="214" TextChanged="UserName_TextChanged"/>
+            <TextBox x:Name="Password" HorizontalAlignment="Left" Height="24" Margin="47,206,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="215"/>
+            <Label x:Name="User" Content="Create a Student user name:" HorizontalAlignment="Left" Height="28" Margin="47,105,0,0" VerticalAlignment="Top" Width="165" Foreground="White"/>
+            <Button x:Name="Registers" Content="REGISTER" HorizontalAlignment="Left" Margin="47,252,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.328,-0.148" Width="126" Click="button1_Click" Height="36"/>
+            <Label x:Name="Passwrd" Content="Create a Student password:" HorizontalAlignment="Left" Height="28" Margin="43,178,0,0" VerticalAlignment="Top" Width="165" Foreground="White"/>
+
+        </Grid>
+
+    </Grid>
+</Window>
